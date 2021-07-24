@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './logo.svg';
+
 import './App.css';
 //import NavBar from './components/navBar';
 import Resume from './components/Resume'
@@ -41,7 +41,7 @@ function App() {
           <Contacts />
         </Route>
         <Route path="/Resume">
-          <Resume />
+          <Resume/>
         </Route>
       </Switch>
 
