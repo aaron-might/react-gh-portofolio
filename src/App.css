@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.nav-nav-bar{
+  list-style-type: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.active{
+  background-color:;
+
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+  
+}
+.header{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(211, 192, 189);
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.contactApp{
+  position: relativ;
+}
