@@ -2,24 +2,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react"
 import '../App.css';
-
-// const Home = () => (
-    // <div>
-    //   <h1 className="title is-1">This is the Home Page</h1>
-    //   <p>
-    //     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
-    //     risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros
-    //     nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum,
-    //     lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
-    //   </p>
-    // </div>
-  // );
-  
   
   const AboutMe = () => {
     console.log(AboutMe)
     return (
-      <div className="aboutApp">
+      <div className="aboutme">
 
         <div className="container">
           <div className="card">
@@ -35,15 +22,13 @@ import '../App.css';
                         alt="Canvas Logo"></img>
                     </div>
 
-                    <div className="col-md-8">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis eros ut felis consequat, ut ultricies mi vulputate. Maecenas elementum ornare mattis. </p>
+                    <div className="col-md-8" type="text">
+                      
+                      <p> 
+                      Aaron Mighty live in Charlotte, NC. I am studying Web development at UNCC bootcamp. I am passionate about engineering and technology. I'm an associate Industrial Engineering with Associate Degree from South Africa. I had an interest into computer since teenagers but decided to do engineering and automation instead. now as it where the world is going there is huge need of IT graduates i like programming 
 
-
-
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis eros ut felis consequat, ut ultricies mi vulputate. Maecenas elementum ornare mattis. </p>
-
-
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis eros ut felis consequat, ut ultricies mi vulputate. Maecenas elementum ornare mattis. </p>
+                      other than that I love music,traveling,experience with new things. I multi-lingual so as speak many language apart from the french, and english which are common.
+                      </p>
                     </div>
                   </div>
                 </blockquote>

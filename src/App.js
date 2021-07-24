@@ -8,7 +8,6 @@ import AboutMe from './components/AboutMe'
 import Works from './components/Works'
 import Footer from './components/footer'
 import Header from './components/header'
-import Title from './components/title'
 import Wrapper from './wrapper'
 
 import {
@@ -20,11 +19,7 @@ import {
 function App() {
 
   return (
-    <Router>
-
-      {/* <Title /> */}
-      {/* <NavBar /> */}
-      <Footer />
+    <Router>      
       <Wrapper />
       <Header />
       <Switch>
@@ -44,7 +39,7 @@ function App() {
           <Resume/>
         </Route>
       </Switch>
-
+      <Footer />
     </Router>
   );
 }

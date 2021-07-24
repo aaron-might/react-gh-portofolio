@@ -5,37 +5,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Contacts = () => {
     return (
 
-        //     <div form>
-        //   <h1>Hello </h1>
-        //   <p>Enter your name:</p>
-        //   <input
-        //     type='text'
-        //     //onChange={this.myChangeHandler}
-        //   />
-        //   <p>Enter your email:</p>
-        //   <input
-        //     type='email'/>
-        //   <p>Enter your message:</p>
-        //   <input
-        //     type='text'/>
-        //     </div>
-        //     );
-        // }
-
+        
         <div className="contactApp">
             <div className="container">
                 <div className="card">
                     <div className="card-header">
-                        <h3>Contact</h3>
+                        <h3>Contacts</h3>
                     </div>
                     <div className="card-body">
                         <blockquote className="blockquote mb-0">
                             <div className="input-group">
                                 <div className="input-group-prepend">
-                                    <span className="input-group-text">First and last name</span>
+                                    <span className="input-group-text">name</span>
                                 </div>
                                 <input type="text" aria-label="First name" className="form-control" />
-                                <input type="text" aria-label="Last name" className="form-control" />
+                                
                             </div>
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
