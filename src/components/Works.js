@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import '../App.css'
-
+const {PUBLIC_URL} = process.env;
 
 const Works = () => {
     return (
@@ -20,7 +20,7 @@ const Works = () => {
 
                             <div className="col-md-3">
                                 <a href="https://aaron-might.github.io/Day-Planner-Project/">
-                                    <img src={'/images/day-planner.png'}
+                                    <img src={PUBLIC_URL + '/images/day-planner.png'}
 
                                         className="card-img-top" alt="Dayplanner">
                                     </img>
@@ -34,7 +34,7 @@ const Works = () => {
 
                             <div className="col-md-3">
                                 <a href="https://mighty-245.herokuapp.com/">
-                                    <img src={'/images/budget-app.png'}
+                                    <img src={PUBLIC_URL + '/images/budget-app.png'}
                                         className="card-img-top" alt="budgetapp">
                                     </img>
                                 </a>
@@ -47,7 +47,7 @@ const Works = () => {
                             </div>
                             <div className="col-md-3">
                                 <a href="https://radiant-ridge-95664.herokuapp.com/">
-                                    <img src={'/images/build-a-chart.png'}
+                                    <img src={PUBLIC_URL + '/images/build-a-chart.png'}
                                         className="card-img-top" alt="build-a-chart">
                                     </img>
                                 </a>
@@ -64,7 +64,7 @@ const Works = () => {
                             </div>
                             <div className="col-md-3">
                                 <a href="https://huirayj.github.io/random-meal-generator/">
-                                    <img src={"images/rmg.png"}
+                                    <img src={PUBLIC_URL + '/images/rmg.png'}
                                         className="card-img-top" alt="rmg">
                                     </img>
                                 </a>
@@ -77,7 +77,7 @@ const Works = () => {
                             <div className="col-md-1"></div>
                             <div className="col-md-3">
                                 <a href=" https://aaron-might.github.io/horiseon-seo-project/">
-                                    <img src={"images/seo.png"}
+                                    <img src={PUBLIC_URL + "/images/seo.png"}
                                         className="card-img-top" alt="seo" />
                                 </a>
                                 <p className="card-text">seo</p>
@@ -89,7 +89,7 @@ const Works = () => {
 
                             <div className="col-md-3">
                                 <a href="https://aaron-might.github.io/Password-Generator-Project/">
-                                    <img src={"images/code-generator.png"}
+                                    <img src={PUBLIC_URL + "/images/code-generator.png"}
                                         className="card-img-top" alt="code-generator" />
                                 </a>
                                 <p className="card-text">Password Generator</p>

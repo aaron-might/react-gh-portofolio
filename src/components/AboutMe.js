@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react"
 import '../App.css';
+const {PUBLIC_URL} = process.env;
   
   const AboutMe = () => {
     console.log(AboutMe)
@@ -18,7 +19,7 @@ import '../App.css';
                     <div className="col-md-3">
 
                       <img
-                        src={'/images/avatar.png'}
+                        src={PUBLIC_URL + '/images/avatar.png'}
                         alt="Canvas Logo"></img>
                     </div>
 
